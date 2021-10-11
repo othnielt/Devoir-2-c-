@@ -15,10 +15,8 @@ int main() {
 		cout << monTab[i] << endl;
 	}
 }
-
+// trie le tableau 
 void trier(int tab[], int size){
-	//VOTRE CODE VIENT ICI
-
 	int i,j;
     for (i = 1; i < size; ++i) {
        int ref = tab[i];

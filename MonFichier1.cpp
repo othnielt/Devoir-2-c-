@@ -19,12 +19,12 @@ int main (void){
 	tab[2] = *(tab + 1);
 	*(tab + 2) = tab[1];
 	*(tab + 2) = *(tab + 1);
-	p = &tab[0];		//place dans p l'adresse de l'élément tab[0]
-	p = tab + 1;		//place dans p l'adresse de l'élément tab[1]
+	p = &tab[0];		//  p contient la valeur  de  Addresse  tab[0]
+	p = tab + 1;		// permet d'accedé al'element 1 du tableau 
 	tab[4] = *p;		//affecte à tab[4] la valeur de *p
 	
 	cout << *p+3 << "\n" << *p << "\n" << *p << "\n" << *p << "\n" << *p << "\n" << *p << "\n" ;
-	// ou 
+	
 	//cout << tab[4]+3 << "\n" << tab[4] << "\n" << tab[4] << "\n" << tab[4]<< "\n" << tab[4] << "\n" << tab[4] << "\n" ;
 	
 	return 0;
