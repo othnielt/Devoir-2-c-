@@ -3,7 +3,7 @@
 using namespace std;
 
 int main (void){
-
+ 
 
 	int tab[10];	//on déclare un tableau de 10 éléments
 	int* p;			//on déclare un pointeur des entiers
